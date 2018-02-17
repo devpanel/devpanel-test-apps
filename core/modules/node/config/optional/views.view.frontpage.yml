@@ -58,7 +58,7 @@ display:
           admin_label: ''
           label: ''
           empty: true
-          title: 'Start Deploying your apps with DevPanel'
+          title: 'Welcome to [site:name]'
           plugin_id: title
       exposed_form:
         type: basic
