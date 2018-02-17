@@ -79,7 +79,7 @@ class FrontPageTest extends ViewTestBase {
     $this->executeView($view);
     $view->preview();
 
-    $this->assertEqual($view->getTitle(), format_string('Welcome to @site_name', array('@site_name' => $site_name)), 'The welcome title is used for the empty view.');
+    $this->assertEqual($view->getTitle(), format_string('Start Deploying your apps with DevPanel', array('@site_name' => $site_name)), 'The welcome title is used for the empty view.');
     $view->destroy();
 
     // Create some nodes on the frontpage view. Add more than 10 nodes in order
