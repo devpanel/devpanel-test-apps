@@ -21,7 +21,7 @@
 	<header class="entry-header">
 		<?php
 		if ( 'post' === get_post_type() ) {
-			echo '<div class="entry-meta">Post Date: ';
+			echo '<div class="entry-meta">Post Dated: ';
 				if ( is_single() ) {
 					twentyseventeen_posted_on();
 				} else {
